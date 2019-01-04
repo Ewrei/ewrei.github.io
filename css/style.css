@@ -1,0 +1,356 @@
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 41, 71);
+    margin: 0;
+    padding: 0;
+}
+
+
+
+p{
+    margin: 0;
+}
+
+
+.logo a{
+    text-decoration: none;
+    color: rgb(24, 64, 99);
+    font-weight: bold;
+    padding: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.logo a:hover{
+    color: rgb(0, 14, 26);
+}
+
+.navbar{
+    background-color: rgb(223, 239, 253);
+    padding: 20px 0;
+}
+
+
+.buttons_menu ul{
+    list-style: none;
+    margin: 0;
+    text-align: left; 
+
+}
+.buttons_menu a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    transition: all .5s ease-in-out;
+    border-bottom: solid 4px rgba(118, 174, 224, 0);
+}
+
+.buttons_menu a:hover{
+    border-bottom: solid 4px rgb(118, 175, 224);
+    padding: 10px;
+}
+
+.menu li{
+    display: inline;
+    
+}
+
+.buttons a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 12px;
+    background-color: rgb(118, 175, 224);
+    font-family: 'Open Sans', sans-serif;
+}
+.buttons a:hover{
+    background-color: rgb(86, 148, 202);
+}
+
+.header{
+    padding: 10px 0;
+}
+.header h1{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header img{
+    width: 100%;
+}
+
+.head_text {
+    text-align: center;
+    padding: 80px 0px;
+}
+.head_text p{
+    padding-bottom: 20px;
+}
+
+
+
+.apps{
+    padding: 30px 0;
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.apps h2{
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.apps p{
+    padding-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+}
+
+.block1 img{
+    width: 75%;
+}
+
+.opesanee{
+    padding: 120px 25px 110px 200px;
+    text-align: right; 
+    border-right: solid 4px rgb(86, 148, 202);
+}
+.opesanee h3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.mockup{
+    text-align: left;
+}
+
+.block2 img{
+    width: 42%;
+    border-right: solid 4px rgb(86, 148, 202);
+    padding-right: 25px;
+}
+
+.opesanee1{
+    padding: 110px 200px 120px 0;
+    text-align: left; 
+
+}
+
+.opesanee1 h3{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.block3 img{
+    width: 38%;
+}
+
+.opesanee2{
+    padding: 130px 25px 150px 200px;
+    text-align: right; 
+    border-right: solid 4px rgb(86, 148, 202);
+}
+
+
+.mockup1{
+    text-align: right;
+}
+
+
+.application_advantage{
+    padding: 20px 0;
+    background: aliceblue;
+    
+}
+
+
+.application_advantage h2{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.application_advantage li{
+    padding: 2px 0;
+    font-size: 18px;
+    list-style: circle;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+.reviews{
+    padding: 30px 0; 
+    text-align: center;
+}
+.reviews h2{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.reviews p{
+    font-family: 'Lato', sans-serif;
+}
+.review{
+    text-align: center;
+    padding: 20px 50px;
+    transition: all .4s ease-in-out;
+}
+.review:hover{
+    box-shadow: 10px 10px 10px 0px rgb(211, 218, 226);
+}
+.review h3{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.review img{
+    width: 50%;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.links a{
+    text-decoration: none;
+    color: #6ba1be;
+    transition: all .4s ease-in-out;
+    font-size: 40px;
+    padding: 0 10px;
+}
+.links a:hover{
+    color: #2e6b8b;
+}
+
+.betatest {
+    padding: 50px 0;
+    text-align: center; 
+    background-color: rgb(240, 248, 255);
+}
+
+.betatest h2{
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.store{
+    padding: 0 300px 25px 300px;
+    font-family: 'Lato', sans-serif;
+}
+
+.blocks{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.blocks h2{
+    font-family: 'Open Sans', sans-serif;
+    color: #34312d;
+}
+
+.blocks h3{
+    font-family: 'Open Sans', sans-serif;
+    color: #2D3853;
+}
+
+.blocks p{
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.appso{
+    transition: all .4s ease-in-out;
+}
+.appso:hover{
+    box-shadow: 8px 8px 8px 0px rgb(211, 218, 226);
+}
+
+.appso img{
+    width: 50%;
+}
+.appso a img{
+    padding-top: 10px;
+}
+
+.thank{
+    padding: 30px 0; 
+    text-align: center;
+}
+.thank h2{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.thanks{
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 13px;
+    transition: all .4s ease-in-out;
+}
+.thanks:hover{
+    box-shadow: 10px 10px 10px 0px rgb(211, 218, 226);
+}
+.thanks h3{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.thanks img{
+    width: 100%;
+    border-radius: 50%;
+    padding: 10px;
+}
+.links-thanks a{
+    text-decoration: none;
+    color: #6ba1be;
+    transition: all .4s ease-in-out;
+    font-size: 26px;
+    padding: 0 5px;
+}
+.links-thanks a:hover{
+    color: #2e6b8b;
+}
+
+.footer{
+    padding: 70px 0;
+    background-color: rgb(223, 239, 253);
+}
+.footer h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+.footer h4{
+    margin: 0;
+    padding-left: 116px; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.footer a{
+    text-decoration: none;
+    color: black;
+    transition: all .4s ease-in-out;
+    border-bottom: solid 4px rgba(86, 148, 202, 0);
+}
+.soc-icon a{
+    text-decoration: none;
+    color: rgb(34, 88, 136);
+    font-size: 30px;
+    padding: 0 5px;
+}
+.footer a:hover{
+    border-bottom: solid 4px rgb(46, 106, 158);
+    color: rgb(20, 76, 124);
+}
+
+.privacy{
+    border-bottom: solid 3px black;
+}
+.privacy p{
+    padding: 2px 0;
+}
+
+.privacy h3{
+    padding: 0;
+    margin: 0;
+}
+
