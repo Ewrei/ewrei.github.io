@@ -1,0 +1,53 @@
+
+body{
+    text-align: center;
+    color: rgb(253, 252, 252);
+    background-color: rgb(24, 24, 24)
+}
+h1,h3{
+    text-align: center;
+    margin: 0;
+}
+
+body h1{
+    font-size: 26px;
+}
+
+body img{
+    width: 80%;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    text-align: left;
+}
+p{
+    text-align: left;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.moolah{
+    color: gold;
+    font-size: 20px;
+}
+
+.btn{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: rgb(212, 102, 12);
+    transition: 0.2s
+}
+
+.btn:hover{
+    background-color: rgb(182, 87, 9);
+    cursor: pointer;
+}
