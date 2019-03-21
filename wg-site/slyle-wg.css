@@ -38,6 +38,10 @@ p{
     font-size: 20px;
 }
 
+.moolah img{
+    width: 7%;
+}
+
 .btn{
     color: white;
     text-decoration: none;
