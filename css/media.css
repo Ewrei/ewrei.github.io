@@ -72,6 +72,9 @@
         .thanks {
             padding: 5px 0;
         }
+        .thanks p{
+            display: none;
+        }
         .thanks img {
             padding: 0;
         }
@@ -166,14 +169,24 @@
         .blocks p {
             padding: 10px 0px;
         }
+        .people{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         .thank {
             padding: 10px 0;
         }
         .thanks {
             padding: 5px 0;
+            width: 50%;
         }
         .thanks img {
             padding: 0;
+        }
+        .thanks p{
+            display: none;
         }
         .footer {
             padding: 0;
@@ -284,6 +297,10 @@
         .appso a img {
             padding-top: 0;
         }
+        .people{
+            display: flex;
+            flex-direction: column;
+        }
         .thank {
             padding: 20px 0;
         }
@@ -293,6 +310,7 @@
         }
         .thanks {
             padding: 0px;
+            width: 60%;
         }
         .footer {
             padding: 10px 0;
@@ -400,6 +418,10 @@
         .appso a img {
             padding-top: 0;
         }
+        .people{
+            display: flex;
+            flex-direction: column;
+        }
         .thank {
             padding: 20px 0;
         }
@@ -409,6 +431,7 @@
         }
         .thanks {
             padding: 0px;
+            width: 60%;
         }
         .footer {
             padding: 10px 0;

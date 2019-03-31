@@ -283,11 +283,18 @@ p{
     font-family: 'Open Sans', sans-serif;
 }
 
+.people{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .thanks{
     text-align: center;
     padding: 20px 0px;
     font-size: 13px;
     transition: all .4s ease-in-out;
+    width: 15%;
 }
 .thanks:hover{
     box-shadow: 10px 10px 10px 0px rgb(211, 218, 226);
