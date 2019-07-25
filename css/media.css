@@ -134,6 +134,9 @@
         .block3 img {
             width: 33%;
         }
+        .appso_layer2{
+            display: none;
+        }
         .application_advantage {
             padding: 10px 0;
         }
@@ -297,6 +300,9 @@
         .appso a img {
             padding-top: 0;
         }
+        .appso_layer2{
+            display: none;
+        }
         .people{
             display: flex;
             flex-direction: column;
@@ -368,6 +374,9 @@
         .block2 img {
             width: 60%;
             border-right: none;
+        }
+        .appso_layer2{
+            display: none;
         }
         .opesanee1{
             padding: 10px 10px 10px 25px;
