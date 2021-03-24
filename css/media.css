@@ -1,473 +1,489 @@
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {
-    
-    }
-    
-    /* Medium Devices, Desktops */
-    @media only screen and (max-width : 992px) {
-        .navbar .buttons a{
-            font-size: 15px;
-        }
-        .head_text{
-            padding: 0;
-        }
-        .header h1 {
-            font-size: 23px;
-        }
-        .apps {
-            padding: 10px 0;
-        }
-        .opesanee {
-            padding: 25px 25px 25px 50px;
-        }
-        .opesanee1 {
-            padding: 25px 50px 25px 0;
-        }
-        .opesanee2 {
-            padding: 25px 25px 25px 60px;
-        }
-        .block3 img {
-            width: 33%;
-        }
-        .application_advantage {
-            padding: 10px 0;
-        }
-        .application_advantage li {
-            padding: 0;
-            font-size: 16px;
-        }
-        .reviews {
-            padding: 10px 0;
-        }
-        .review {
-            padding: 10px 0px;
-        }
-        .review img {
-            width: 55%;
-            padding: 0px;
-        }
-        .betatest {
-            padding: 20px 0;
-        }
-        .betatest .store {
-            padding: 0 50px 25px 40px;
-        }
-        .blocks {
-            padding: 0;
-        }
-        .appso h3 {
-            margin: 0;
-        }
-        .appso img {
-            width: 65%;
-        }
-        .blocks p {
-            padding: 10px 0px;
-        }
-        .thank {
-            padding: 10px 0;
-        }
-        .thanks {
-            padding: 5px 0;
-        }
-        .thanks p{
-            display: none;
-        }
-        .thanks img {
-            padding: 0;
-        }
-        .footer {
-            padding: 0;
-        }
-        .footer h4 {
-            padding-left: 50px;
-        }
-    }
-    
-    /* Small Devices, Tablets */
-    @media only screen and (max-width : 768px) {
-        
-        /*Disable Animation on Mobile Devices*/
-        .animated {
-            /*CSS transitions*/
-            -o-transition-property: none !important;
-            -moz-transition-property: none !important;
-            -ms-transition-property: none !important;
-            -webkit-transition-property: none !important;
-            transition-property: none !important;
-            /*CSS transforms*/
-            -o-transform: none !important;
-            -moz-transform: none !important;
-            -ms-transform: none !important;
-            -webkit-transform: none !important;
-            transform: none !important;
-            /*CSS animations*/
-            -webkit-animation: none !important;
-            -moz-animation: none !important;
-            -o-animation: none !important;
-            -ms-animation: none !important;
-            animation: none !important;
-        }
-        .navbar .buttons a{
-            font-size: 15px;
-        }
-        .head_text{
-            padding: 0;
-        }
-        .header h1 {
-            font-size: 23px;
-        }
-        .apps {
-            padding: 10px 0;
-        }
-        .opesanee {
-            padding: 25px 25px 25px 50px;
-        }
-        .opesanee1 {
-            padding: 25px 50px 25px 0;
-        }
-        .opesanee2 {
-            padding: 25px 25px 25px 60px;
-        }
-        .block3 img {
-            width: 33%;
-        }
-        .appso_layer2{
-            display: none;
-        }
-        .application_advantage {
-            padding: 10px 0;
-        }
-        .application_advantage li {
-            padding: 0;
-            font-size: 16px;
-        }
-        .reviews {
-            padding: 10px 0;
-        }
-        .review {
-            padding: 10px 0px;
-        }
-        .review img {
-            width: 55%;
-            padding: 0px;
-        }
-        .betatest {
-            padding: 20px 0;
-        }
-        .betatest .store {
-            padding: 0 50px 25px 40px;
-        }
-        .blocks {
-            padding: 0;
-        }
-        .appso h3 {
-            margin: 0;
-        }
-        .appso img {
-            width: 65%;
-        }
-        .blocks p {
-            padding: 10px 0px;
-        }
-        .people{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .thank {
-            padding: 10px 0;
-        }
-        .thanks {
-            padding: 5px 0;
-            width: 50%;
-        }
-        .thanks img {
-            padding: 0;
-        }
-        .thanks p{
-            display: none;
-        }
-        .footer {
-            padding: 0;
-        }
-        .footer h4 {
-            padding-left: 50px;
-        }
-    
-    }
-    
-    /* Extra Small Devices, Phones */
-    @media only screen and (max-width : 480px) {
-.navbar{
-            padding: 10px 0;
-        }
-        .logo {
-            text-align: center;
-            padding-bottom: 20px;
-        }
-        .menu .buttons{
-            display: none;
-        }
-        .buttons_menu a{
-            padding: 10px 8px;
-            font-size: 14px;
-        }
-        .header{
-            padding: 0;
-        }
-        .header h1{
-            font-size: 20px;
-        }
-        .head_text{
-            padding: 0;
-        }
-        .apps{
-            padding: 10px 0;
-        }
-        .apps p {
-            padding-bottom: 10px;
-        }
-        .opesanee {
-            padding: 10px 25px 10px 20px;
-            text-align: right;
-            border-right: solid 4px rgb(86, 148, 202);
-        }
-        .opesanee2{
-            padding: 10px 25px 10px 0;
-        }
-        .mockup {
-            text-align: center;
-            display: none;
-        }
-        .mockup1{
-            text-align: center;
-            display: none;
-        }
-        .block2 img {
-            width: 60%;
-            border-right: none;
-        }
-        .opesanee1{
-            padding: 10px 10px 10px 25px;
-            text-align: left; 
-            border-left: solid 4px rgb(86, 148, 202);
-        }
-        .application_advantage {
-            padding: 10px 0;
-        }
-        .application_advantage li{
-            padding: 0;
-            font-size: 16px;
-        }
-        .review{
-            padding: 10px 0;
-        }
-        .reviews {
-            padding: 10px 0;
-        }
-        .review img {
-            width: 65%;
-            padding: 0px;
-        }
-        .betatest {
-            padding: 20px 0;
-        }
-        .betatest .store {
-            padding: 0 0 25px 0;
-        }
-        .betatest .buttons a {
-            font-size: 16px;
-        }
-        .betatest img{
-            display: none;
-        }
-        .store {
-            padding: 0 15px 25px 15px;
-        }
-        .blocks {
-            padding: 0;
-        }
-        .blocks h3 {
-            margin: 0;
-        }
-        .appso img {
-            width: 60%;
-        }
-        .appso a img {
-            padding-top: 0;
-        }
-        .appso_layer2{
-            display: none;
-        }
-        .people{
-            display: flex;
-            flex-direction: column;
-        }
-        .thank {
-            padding: 20px 0;
-        }
-        .thanks img {
-            width: 75%;
-            padding: 5px;
-        }
-        .thanks {
-            padding: 0px;
-            width: 60%;
-        }
-        .footer {
-            padding: 10px 0;
-        }
-    
-    }
-    
-    /* Custom, iPhone Retina */
-    @media only screen and (max-width : 320px) {
-        .navbar{
-            padding: 10px 0;
-        }
-        .logo {
-            text-align: center;
-            padding-bottom: 20px;
-        }
-        .menu .buttons{
-            display: none;
-        }
-        .buttons_menu a{
-            padding: 10px 8px;
-            font-size: 14px;
-        }
-        .header{
-            padding: 0;
-        }
-        .header h1{
-            font-size: 20px;
-        }
-        .head_text{
-            padding: 0;
-        }
-        .apps{
-            padding: 10px 0;
-        }
-        .apps p {
-            padding-bottom: 10px;
-        }
-        .opesanee {
-            padding: 10px 25px 10px 20px;
-            text-align: right;
-            border-right: solid 4px rgb(86, 148, 202);
-        }
-        .opesanee2{
-            padding: 10px 25px 10px 0;
-        }
-        .mockup {
-            text-align: center;
-            display: none;
-        }
-        .mockup1{
-            text-align: center;
-            display: none;
-        }
-        .block2 img {
-            width: 60%;
-            border-right: none;
-        }
-        .appso_layer2{
-            display: none;
-        }
-        .opesanee1{
-            padding: 10px 10px 10px 25px;
-            text-align: left; 
-            border-left: solid 4px rgb(86, 148, 202);
-        }
-        .application_advantage {
-            padding: 10px 0;
-        }
-        .application_advantage li{
-            padding: 0;
-            font-size: 16px;
-        }
-        .review{
-            padding: 10px 0;
-        }
-        .reviews {
-            padding: 10px 0;
-        }
-        .review img {
-            width: 65%;
-            padding: 0px;
-        }
-        .betatest {
-            padding: 20px 0;
-        }
-        .betatest .store {
-            padding: 0 0 25px 0;
-        }
-        .betatest .buttons a {
-            font-size: 16px;
-        }
-        .betatest img{
-            display: none;
-        }
-        .store {
-            padding: 0 15px 25px 15px;
-        }
-        .blocks {
-            padding: 0;
-        }
-        .blocks h3 {
-            margin: 0;
-        }
-        .appso img {
-            width: 60%;
-        }
-        .appso a img {
-            padding-top: 0;
-        }
-        .people{
-            display: flex;
-            flex-direction: column;
-        }
-        .thank {
-            padding: 20px 0;
-        }
-        .thanks img {
-            width: 75%;
-            padding: 5px;
-        }
-        .thanks {
-            padding: 0px;
-            width: 60%;
-        }
-        .footer {
-            padding: 10px 0;
-        }
-    }
-    
-    
-    /*==========  Mobile First Method  ==========*/
-    
-    /* Custom, iPhone Retina */
-    @media only screen and (min-width : 320px) {
 
-    
+@media only screen and (max-width: 1200px) {}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (max-width: 992px) {
+    .navbar {
+        position: relative;
+    }
+    .navbar__list {
+        display: none;
+        position: absolute;
+        top: 84px;
+        left: 0;
+        right: 0;
+        background: rgb(223, 239, 253);
+        text-align: center;
+        z-index: 1;
+    }
+    .navbar__item {
+        border-top: solid 1px rgb(118, 175, 224);
+        /* border-bottom: solid 1px rgb(118, 175, 224); */
+    }
+    .hamburger {
+        display: block;
+        padding: 5px;
+        outline: transparent;
+    }
+    .hamburger-box .hamburger-inner, .hamburger-box .hamburger-inner::after, .hamburger-box .hamburger-inner::before {
+        background-color: rgb(24, 64, 99);
+    }
+    .navbar .buttons a {
+        font-size: 10px;
+    }
+    .head_text {
+        padding: 0;
+    }
+    .header h1 {
+        font-size: 23px;
+    }
+    .apps {
+        padding: 10px 0;
+    }
+    .opesanee {
+        padding: 25px 25px 25px 50px;
+    }
+    .opesanee1 {
+        padding: 25px 50px 25px 0;
+    }
+    .opesanee2 {
+        padding: 25px 25px 25px 60px;
+    }
+    .block3 img {
+        width: 33%;
+    }
+    .application_advantage {
+        padding: 10px 0;
+    }
+    .application_advantage li {
+        padding: 0;
+        font-size: 16px;
+    }
+    .reviews {
+        padding: 10px 0;
+    }
+    .review {
+        padding: 10px 0px;
+    }
+    .review img {
+        width: 55%;
+        padding: 0px;
+    }
+    .betatest {
+        padding: 20px 0;
+    }
+    .betatest .store {
+        padding: 0 50px 25px 40px;
+    }
+    .blocks {
+        padding: 0;
+    }
+    .appso h3 {
+        margin: 0;
+    }
+    .appso img {
+        width: 65%;
+    }
+    .blocks p {
+        padding: 10px 0px;
+    }
+    .thank {
+        padding: 10px 0;
+    }
+    .thanks {
+        padding: 5px 0;
+    }
+    .thanks p {
+        display: none;
+    }
+    .thanks img {
+        padding: 0;
+    }
+    .footer {
+        padding: 0;
+    }
+    .footer h4 {
+        padding-left: 50px;
+    }
 }
-    /* Extra Small Devices, Phones */
-    @media only screen and (min-width : 480px) {
-  
-}        
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
+
+/* Small Devices, Tablets */
+
+@media only screen and (max-width: 768px) {
+    /*Disable Animation on Mobile Devices*/
+    .animated {
+        /*CSS transitions*/
+        -o-transition-property: none !important;
+        -moz-transition-property: none !important;
+        -ms-transition-property: none !important;
+        -webkit-transition-property: none !important;
+        transition-property: none !important;
+        /*CSS transforms*/
+        -o-transform: none !important;
+        -moz-transform: none !important;
+        -ms-transform: none !important;
+        -webkit-transform: none !important;
+        transform: none !important;
+        /*CSS animations*/
+        -webkit-animation: none !important;
+        -moz-animation: none !important;
+        -o-animation: none !important;
+        -ms-animation: none !important;
+        animation: none !important;
     }
-    
-    
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
+
+    .head_text {
+        padding: 0;
     }
-    
-    /* Large Devices, Wide Screens */
-    @media only screen and (min-width : 1200px) {
+    .header h1 {
+        font-size: 23px;
     }
+    .apps {
+        padding: 10px 0;
+    }
+    .opesanee {
+        padding: 25px 25px 25px 50px;
+    }
+    .opesanee1 {
+        padding: 25px 50px 25px 0;
+    }
+    .opesanee2 {
+        padding: 25px 25px 25px 60px;
+    }
+    .block3 img {
+        width: 33%;
+    }
+    .appso_layer2 {
+        display: none;
+    }
+    .application_advantage {
+        padding: 10px 0;
+    }
+    .application_advantage li {
+        padding: 0;
+        font-size: 16px;
+    }
+    .reviews {
+        padding: 10px 0;
+    }
+    .review {
+        padding: 10px 0px;
+    }
+    .review img {
+        width: 55%;
+        padding: 0px;
+    }
+    .betatest {
+        padding: 20px 0;
+    }
+    .betatest .store {
+        padding: 0 50px 25px 40px;
+    }
+    .blocks {
+        padding: 0;
+    }
+    .appso h3 {
+        margin: 0;
+    }
+    .appso img {
+        width: 65%;
+    }
+    .blocks p {
+        padding: 10px 0px;
+    }
+    .people {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .thank {
+        padding: 10px 0;
+    }
+    .thanks {
+        padding: 5px 0;
+        width: 50%;
+    }
+    .thanks img {
+        padding: 0;
+    }
+    .thanks p {
+        display: none;
+    }
+    .footer {
+        padding: 0;
+    }
+    .footer h4 {
+        padding-left: 50px;
+    }
+}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (max-width: 480px) {
+    .navbar {
+        padding: 10px 0;
+    }
+    .navbar__list {
+        top: 64px;
+    }
+    .logo {
+        text-align: center;
+        /* padding-bottom: 20px; */
+    }
+    .header {
+        padding: 0;
+    }
+    .header h1 {
+        font-size: 20px;
+    }
+    .head_text {
+        padding: 0;
+    }
+    .apps {
+        padding: 10px 0;
+    }
+    .apps p {
+        padding-bottom: 10px;
+    }
+    .opesanee {
+        padding: 10px 25px 10px 20px;
+        text-align: right;
+        border-right: solid 4px rgb(86, 148, 202);
+    }
+    .opesanee2 {
+        padding: 10px 25px 10px 0;
+    }
+    .mockup {
+        text-align: center;
+        display: none;
+    }
+    .mockup1 {
+        text-align: center;
+        display: none;
+    }
+    .block2 img {
+        width: 60%;
+        border-right: none;
+    }
+    .opesanee1 {
+        padding: 10px 10px 10px 25px;
+        text-align: left;
+        border-left: solid 4px rgb(86, 148, 202);
+    }
+    .application_advantage {
+        padding: 10px 0;
+    }
+    .application_advantage li {
+        padding: 0;
+        font-size: 16px;
+    }
+    .review {
+        padding: 10px 0;
+    }
+    .reviews {
+        padding: 10px 0;
+    }
+    .review img {
+        width: 65%;
+        padding: 0px;
+    }
+    .betatest {
+        padding: 20px 0;
+    }
+    .betatest .store {
+        padding: 0 0 25px 0;
+    }
+    .betatest .buttons a {
+        font-size: 16px;
+    }
+    .betatest img {
+        display: none;
+    }
+    .store {
+        padding: 0 15px 25px 15px;
+    }
+    .blocks {
+        padding: 0;
+    }
+    .blocks h3 {
+        margin: 0;
+    }
+    .appso img {
+        width: 60%;
+    }
+    .appso a img {
+        padding-top: 0;
+    }
+    .appso_layer2 {
+        display: none;
+    }
+    .people {
+        display: flex;
+        flex-direction: column;
+    }
+    .thank {
+        padding: 20px 0;
+    }
+    .thanks img {
+        width: 75%;
+        padding: 5px;
+    }
+    .thanks {
+        padding: 0px;
+        width: 60%;
+    }
+    .footer {
+        padding: 10px 0;
+    }
+}
+
+/* Custom, iPhone Retina */
+
+@media only screen and (max-width: 320px) {
+    .navbar {
+        padding: 10px 0;
+    }
+    .logo {
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .menu .buttons {
+        display: none;
+    }
+    .buttons_menu a {
+        padding: 10px 8px;
+        font-size: 14px;
+    }
+    .header {
+        padding: 0;
+    }
+    .header h1 {
+        font-size: 20px;
+    }
+    .head_text {
+        padding: 0;
+    }
+    .apps {
+        padding: 10px 0;
+    }
+    .apps p {
+        padding-bottom: 10px;
+    }
+    .opesanee {
+        padding: 10px 25px 10px 20px;
+        text-align: right;
+        border-right: solid 4px rgb(86, 148, 202);
+    }
+    .opesanee2 {
+        padding: 10px 25px 10px 0;
+    }
+    .mockup {
+        text-align: center;
+        display: none;
+    }
+    .mockup1 {
+        text-align: center;
+        display: none;
+    }
+    .block2 img {
+        width: 60%;
+        border-right: none;
+    }
+    .appso_layer2 {
+        display: none;
+    }
+    .opesanee1 {
+        padding: 10px 10px 10px 25px;
+        text-align: left;
+        border-left: solid 4px rgb(86, 148, 202);
+    }
+    .application_advantage {
+        padding: 10px 0;
+    }
+    .application_advantage li {
+        padding: 0;
+        font-size: 16px;
+    }
+    .review {
+        padding: 10px 0;
+    }
+    .reviews {
+        padding: 10px 0;
+    }
+    .review img {
+        width: 65%;
+        padding: 0px;
+    }
+    .betatest {
+        padding: 20px 0;
+    }
+    .betatest .store {
+        padding: 0 0 25px 0;
+    }
+    .betatest .buttons a {
+        font-size: 16px;
+    }
+    .betatest img {
+        display: none;
+    }
+    .store {
+        padding: 0 15px 25px 15px;
+    }
+    .blocks {
+        padding: 0;
+    }
+    .blocks h3 {
+        margin: 0;
+    }
+    .appso img {
+        width: 60%;
+    }
+    .appso a img {
+        padding-top: 0;
+    }
+    .people {
+        display: flex;
+        flex-direction: column;
+    }
+    .thank {
+        padding: 20px 0;
+    }
+    .thanks img {
+        width: 75%;
+        padding: 5px;
+    }
+    .thanks {
+        padding: 0px;
+        width: 60%;
+    }
+    .footer {
+        padding: 10px 0;
+    }
+}
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {}
+
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {}
+
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {}
+
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {}
+
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {}
