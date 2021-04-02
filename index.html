@@ -3,46 +3,21 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Wot statistics</title>
-    <meta name="description"
-        content="Неофициальные приложения для анализа и отображения статистики игроков в играх от Wargaming.net (World of Tanks, World of Tanks Blitz и World of Warships).">
+    <title>Robinlabs</title>
 
-    <!-- Meta -->
-    <meta property="twitter:card" content="summary_large_image">
-    <meta property="og:site_name" content="robinlabs">
-    <meta property="vk:image" content="https://robinlabs.ru/img/cover/coverVK.jpg">
-    <meta property="twitter:image" content="https://robinlabs.ru/img/cover/coverTW.jpg">
-    <meta property="og:image" content="https://robinlabs.ru/img/cover/covergeneral.jpg">
-    <meta property="og:image:width" content="600">
-    <meta property="og:image:height" content="315">
-    <meta property="og:title" content="robinlabs">
-    <meta property="og:type" content="website">
-    <meta property="og:description"
-        content="Неофициальные приложения для анализа и отображения статистики игроков в играх от Wargaming.net (World of Tanks, World of Tanks Blitz и World of Warships).">
-    <link rel="image_src" href="https://robinlabs.ru/img/cover/covergeneral.jpg">
-    <meta property="og:url" content="https://robinlabs.ru">
-    <link rel="canonical" href="https://robinlabs.ru">
-    <meta name="twitter:card" content="summary_large_image">
 
-    <link href="css/bootstrap-grid.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/normalaze.css">
     <link rel="stylesheet" href="css/hamburgers.min.css">
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/media.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
 
-    <link rel="shortcut icon" href="img/favicon/favicon.png" type="image/x-icon">
-    <link rel="apple-touch-icon" href="img/favicon/ic_robinlabs_144.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/ic_robinlabs_72.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="ic_robinlabs_114.png">
-
-    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans|Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
-    <script src="js/jquery-3.2.1.min.js"></script>
-
-    <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125039245-2"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
@@ -51,411 +26,420 @@
 
         gtag('config', 'UA-125039245-2');
     </script>
-
-
 </head>
 
 <body>
-    <div class="navbar">
-        <div class="container navbar__container">
-            <div class="logo">
-                <a href="index.html">robinlabs</a>
-                <p class="buttons" title="Перейти в Google Play"><a
-                        href="https://play.google.com/store/apps/developer?id=%D0%92%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%B9+%D0%A0%D0%BE%D0%B1%D0%B8%D0%BD%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B9"><i
-                            class="fab fa-google-play"></i> google play</a></p>
-            </div>
+    <header class="herader">
+        <div class="container header__container">
+            <a href="index.html" class="herader__logo logo">Robinlabs</a>
             <button class="hamburger hamburger--slider" type="button">
                 <span class="hamburger-box">
-                  <span class="hamburger-inner"></span>
+                    <span class="hamburger-inner"></span>
                 </span>
-              </button>
-            <ul class="navbar__list" id="menu">
-                <li class="navbar__item"><a href="#apps">Приложение</a></li>
-                <li class="navbar__item"><a href="#reviews">О команде</a></li>
-                <li class="navbar__item"><a href="#betatest">Бета</a></li>
-                <li class="navbar__item"><a href="#thank">Благодарности</a></li>
+            </button>
+            <ul class="herader__menu list-reset">
+                <li class="header__item"><a class="header__link" href="#apps">Приложения</a></li>
+                <li class="header__item"><a class="header__link" href="#about">О команде</a></li>
+                <li class="header__item"><a class="header__link" href="#thanks">благодарности</a></li>
             </ul>
         </div>
-    </div>
-    <div class="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <div class="head_text">
-                        <h1>Неофициальное приложение для анализа и отображения статистики игроков World of Tanks.</h1>
-                        <p class="buttons" title="Перейти в Google Play">
-                            <a href="https://play.google.com/store/apps/details?id=robin.vitalij"><i
-                                    class="fab fa-google-play"></i> установить</a>
-                        </p>
+    </header>
+    <section class="banner">
+        <div class="container banner__container">
+            <p class="banner__text">Привет! Мы — Robinlabs. Нам уже больше 4 лет, мы делаем мобильные и веб-приложения,
+                которые помогают следить за вашей статистикой в таких популярных играх как: Counter-Strike: Global
+                Offensive, World of Tanks, World of Tanks Blitz, World of Warships, Dota 2, Fortnite. Что позволяет
+                нашим пользоветелям улучшить свой игровой опыт.
+                <span class="text-block">
+                    Мы умеем выполнять весь цикл работ: от сбора требований и прототипирования до публикации и
+                    сопровождения.
+                </span>
+            </p>
+        </div>
+    </section>
+    <section class="apps" id="apps">
+        <div class="container apps__container">
+            <h2 class="title apps__title">Наши приложения</h2>
+            <div class="apps__wrapper">
+                <article class="apps-card">
+                    <div class="apps__img">
+                        <img src="img/mockup1.png" alt="">
                     </div>
-                </div>
-                <div class="col-md-7">
-                    <img src="img/phones4.4.jpg" alt="">
-                </div>
+                    <h3 class="apps-card__title"><a href="https://play.google.com/store/apps/details?id=robin.vitalij.cs_go_assistant">CS:GO Assistant <svg aria-hidden="true" focusable="false"
+                                data-prefix="fab" data-icon="google-play" class="svg-inline--fa fa-google-play fa-w-16"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="currentColor"
+                                    d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z">
+                                </path>
+                            </svg></a></h3>
+                </article>
+                <article class="apps-card">
+                    <div class="apps__img">
+                        <img src="img/mockup2.png" alt="">
+                    </div>
+                    <h3 class="apps-card__title"><a href="https://play.google.com/store/apps/details?id=robin.vitalij">WOT Statistics <svg aria-hidden="true" focusable="false"
+                                data-prefix="fab" data-icon="google-play" class="svg-inline--fa fa-google-play fa-w-16"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="currentColor"
+                                    d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z">
+                                </path>
+                            </svg></a></h3>
+                </article>
+                <article class="apps-card">
+                    <div class="apps__img">
+                        <img src="img/mockup3.png" alt="">
+                    </div>
+                    <h3 class="apps-card__title"><a href="https://play.google.com/store/apps/details?id=robin.vitalij.fortniteassitant">Fort Assistant <svg aria-hidden="true" focusable="false"
+                                data-prefix="fab" data-icon="google-play" class="svg-inline--fa fa-google-play fa-w-16"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="currentColor"
+                                    d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z">
+                                </path>
+                            </svg></a></h3>
+                </article>
+                <article class="apps-card">
+                    <div class="apps__img">
+                        <img src="img/mockup4.png" alt="">
+                    </div>
+                    <h3 class="apps-card__title"><a href="https://play.google.com/store/apps/details?id=robin.vitalij.dotaassistant">Dota 2 Assistant <svg aria-hidden="true" focusable="false"
+                                data-prefix="fab" data-icon="google-play" class="svg-inline--fa fa-google-play fa-w-16"
+                                role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="currentColor"
+                                    d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z">
+                                </path>
+                            </svg></a></h3>
+                </article>
+                <article class="apps-card">
+                    <div class="apps__img">
+                        <img src="img/mockup5.png" alt="">
+                    </div>
+                    <h3 class="apps-card__title"><a href="https://apps.apple.com/app/cs-go-commands/id1552536981">CS:GO Command‪s‬ <svg aria-hidden="true" focusable="false"
+                                data-prefix="fab" data-icon="app-store-ios"
+                                class="svg-inline--fa fa-app-store-ios fa-w-14" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path fill="white"
+                                    d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zM127 384.5c-5.5 9.6-17.8 12.8-27.3 7.3-9.6-5.5-12.8-17.8-7.3-27.3l14.3-24.7c16.1-4.9 29.3-1.1 39.6 11.4L127 384.5zm138.9-53.9H84c-11 0-20-9-20-20s9-20 20-20h51l65.4-113.2-20.5-35.4c-5.5-9.6-2.2-21.8 7.3-27.3 9.6-5.5 21.8-2.2 27.3 7.3l8.9 15.4 8.9-15.4c5.5-9.6 17.8-12.8 27.3-7.3 9.6 5.5 12.8 17.8 7.3 27.3l-85.8 148.6h62.1c20.2 0 31.5 23.7 22.7 40zm98.1 0h-29l19.6 33.9c5.5 9.6 2.2 21.8-7.3 27.3-9.6 5.5-21.8 2.2-27.3-7.3-32.9-56.9-57.5-99.7-74-128.1-16.7-29-4.8-58 7.1-67.8 13.1 22.7 32.7 56.7 58.9 102h52c11 0 20 9 20 20 0 11.1-9 20-20 20z">
+                                </path>
+                            </svg></a></h3>
+                </article>
+                <article class="apps-card">
+                    <div class="apps__img">
+                        <img src="img/mockup7.png" alt="">
+                    </div>
+                    <h3 class="apps-card__title"><a href="https://play.google.com/store/apps/details?id=robin.vitalij.wot_console">WoT Console Statistics‬ <svg aria-hidden="true"
+                                focusable="false" data-prefix="fab" data-icon="google-play"
+                                class="svg-inline--fa fa-google-play fa-w-16" role="img"
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                <path fill="currentColor"
+                                    d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z">
+                                </path>
+                            </svg></a></h3>
+                </article>
             </div>
         </div>
-    </div>
+    </section>
+    <section class="about" id="about">
+        <div class="container about__container">
+            <h2 class="title title__about">О команде</h2>
+            <p class="descr about__descr">Наша команда разработчиков бесстрашно идёт вперед.
+                <span class="text-block">Именно кто-то из них будет вести ваш проект и отвечать за него.</span>
+            </p>
+            <div class="about__wrapper">
+                <article class="about-card">
+                    <img src="img/people/uperfoto1.jpg" alt="">
+                    <h3 class="about-card__title">Дмитрий Упировец</h3>
+                    <p class="about-card__descr">Председатель какойто херни.</p>
+                    <p class="about-card__descr">Несостоявшийся stand-up комик.</p>
+                    <ul class="about__list list-reset">
+                        <li class="about__item">
+                            <a class="about__link" href="https://t.me/hvatit_admin" title="telegram" target="_blank">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram-plane"
+                                    class="svg-inline--fa fa-telegram-plane fa-w-14" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor"
+                                        d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="about__item">
+                            <a class="about__link" href="https://twitter.com/upermane" title="twitter" target="_blank">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
+                                    class="svg-inline--fa fa-twitter fa-w-16" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="currentColor"
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+                <article class="about-card">
+                    <img src="img/people/robfoto1.jpg" alt="">
+                    <h3 class="about-card__title">Виталий Робиновский</h3>
+                    <p class="about-card__descr">Android developer</p>
+                    <p class="about-card__descr">Основатель проекта Robinlabs</p>
+                    <ul class="about__list list-reset">
+                        <li class="about__item">
+                            <a class="about__link" href="https://t.me/v_rabinovsky" title="telegram" target="_blank">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram-plane"
+                                    class="svg-inline--fa fa-telegram-plane fa-w-14" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor"
+                                        d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="about__item">
+                            <a class="about__link" href="mailto:v.robin.projects@gmail.com" title="email" target="_blank">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
+                                    class="svg-inline--fa fa-envelope fa-w-16" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="currentColor"
+                                        d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="about__item">
+                            <a class="about__link" href="https://twitter.com/vitalijrobin" title="twitter" target="_blank">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
+                                    class="svg-inline--fa fa-twitter fa-w-16" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="currentColor"
+                                        d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section class="community">
+        <div class="container community__container">
+            <h2 class="title community__title">
+                Будь частью нашего сообщества
+            </h2>
+            <p class="descr community__descr">Принимай участие в программах бета-тестирования приложений, вы сможете в
+                числе
+                первых оценить предварительные версии приложений, а также попробовать в деле новые функции. Ваши
+                гневные, а может и радостные
+                отзывы позволят нам выявлять и устранять проблемы.
+                <span class="text-block">В ступай в наши социальные сети, что бы узнать первым о нововведениях,
+                    розыгрышах или
+                    просто поделиться хорошим настроением.</span>
+            </p>
+            <ul class="community__list list-reset">
+                <li class="community__item">
+                    <a class="community__link" href="https://t.me/cs_go_assistant">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="telegram-plane"
+                            class="svg-inline--fa fa-telegram-plane fa-w-14" role="img"
+                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                            <path fill="#0088cc"
+                                d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+                <li class="community__item">
+                    <a class="community__link" href="https://vk.com/wg.statistics">
+                        <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vk"
+                            class="svg-inline--fa fa-vk fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 576 512">
+                            <path fill="#0088cc"
+                                d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z">
+                            </path>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <section class="thanks" id="thanks">
+        <div class="container thanks__containe">
+            <h2 class="thanks__title title">Благодарности</h2>
+            <p class="descr thanks__descr">Текст какие они молодцы, а мы лентяи</p>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <article class="card">
+                            <div class="card__header">
+                                <img src="img/people/Konstantin Linko.jpg" alt="" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                <h3 class="card__name">Konstantin Linko</h3>
+                                <p class="card__text">
+                                    Активный тестировщик
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="card">
+                            <div class="card__header">
+                                <img src="img/people/masha1.jpg" alt="" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                <h3 class="card__name">Мария Станкевич</h3>
+                                <p class="card__text">
+                                    Перевод на немецкий.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="card">
+                            <div class="card__header">
+                                <img src="img/people/Denis Baidak.jpg" alt="" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                <h3 class="card__name">Denis Baidak</h3>
+                                <p class="card__text">
+                                    Придумал идею.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="card">
+                            <div class="card__header">
+                                <img src="img/people/Hania Drozd.jpg" alt="" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                <h3 class="card__name">Hania Drozd</h3>
+                                <p class="card__text">
+                                    Перевод на польский.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="card">
+                            <div class="card__header">
+                                <img src="img/people/masha2.jpg" alt="" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                <h3 class="card__name">Мария Самарец</h3>
+                                <p class="card__text">
+                                    Перевод на французский.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="card">
+                            <div class="card__header">
+                                <img src="img/people/Степан Партыченко.jpg" alt="" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                <h3 class="card__name">Степан Партыченко</h3>
+                                <p class="card__text">
+                                    Активный тестировщик.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="swiper-slide">
+                        <article class="card">
+                            <div class="card__header">
+                                <img src="img/people/Hernan Rivero.jpg" alt="" class="card__image">
+                            </div>
+                            <div class="card__body">
+                                <h3 class="card__name">Hernan Rivero</h3>
+                                <p class="card__text">
+                                    Перевод на испанский.
+                                </p>
+                            </div>
+                        </article>
+                    </div>
 
-    <div class="apps">
-        <a id="apps"></a>
-        <h2>Одно из наших приложений</h2>
-        <p>Больше 50000 скачиваний</p>
-        <div class="block1">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="opesanee">
-                            <h3>Поддержка тем</h3>
-                            <p>В приложение вы можете выбрать одну из трех тем. Количество доступных тем будет расти со
-                                временем
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="mockup">
-                            <img src="img/themes.png" alt="">
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
-        <br>
-        <div class="block2">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="mockup1">
-                            <img src="img/profile2.png" alt="">
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="opesanee1">
-                            <h3>Мультиакаунтность</h3>
-                            <p>Приложение поддерживает функцию мультиаккаунтности. Где сохраняется для каждого аккаунта
-                                сессии,
-                                избранная техника и другая информация.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="block3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="opesanee2">
-                            <h3>Просмотр игровой сессии</h3>
-                            <p>Подробный просмотр каждой игровой сессии(техника, достижения, статистика), графики по
-                                сессиям.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="mockup">
-                            <img src="img/dinamika2.png" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="application_advantage">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col col-md-7">
-                    <h2>Основные возможности:</h2>
-                    <ul>
-                        <li>Присутствует возможность добавления для отслеживания нескольких профилей с сохранением
-                            прогресса для
-                            каждого из них;</li>
-                        <li>Отображение общей статистики игрока;</li>
-                        <li>Подробная информация о каждой сессии;</li>
-                        <li>Игровые сессии по отдельной технике;</li>
-                        <li>Расчет популярных рейтингов (PЭ, WN8, WN7, WN6);</li>
-                        <li>Рейтинги для каждого танка в отдельности;</li>
-                        <li>Графики для отслеживания прогресса за игровые сессии;</li>
-                        <li>История сессий;</li>
+    </section>
+    <footer class="footer">
+        <div class="container footer__cpntainer">
+            <div class="footer__wrapper">
+                <div class="footer__social">
+                    <a href="#" class="footer__logo logo">Robinlabs</a>
+                    <a class="footer__mail" href="mailto:v.robin.projects@gmail.com">v.robin.projects@gmail.com</a>
+                    <ul class="list-reset social-list">
+                        <li class="social__item">
+                            <a href=""><svg aria-hidden="true" focusable="false" data-prefix="fab"
+                                    data-icon="telegram-plane" class="svg-inline--fa fa-telegram-plane fa-w-14"
+                                    role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                    <path fill="currentColor"
+                                        d="M446.7 98.6l-67.6 318.8c-5.1 22.5-18.4 28.1-37.3 17.5l-103-75.9-49.7 47.8c-5.5 5.5-10.1 10.1-20.7 10.1l7.4-104.9 190.9-172.5c8.3-7.4-1.8-11.5-12.9-4.1L117.8 284 16.2 252.2c-22.1-6.9-22.5-22.1 4.6-32.7L418.2 66.4c18.4-6.9 34.5 4.1 28.5 32.2z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope"
+                                    class="svg-inline--fa fa-envelope fa-w-16" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                    <path fill="currentColor"
+                                        d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a href="">
+                                <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="vk"
+                                    class="svg-inline--fa fa-vk fa-w-18" role="img" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 576 512">
+                                    <path fill="currentColor"
+                                        d="M545 117.7c3.7-12.5 0-21.7-17.8-21.7h-58.9c-15 0-21.9 7.9-25.6 16.7 0 0-30 73.1-72.4 120.5-13.7 13.7-20 18.1-27.5 18.1-3.7 0-9.4-4.4-9.4-16.9V117.7c0-15-4.2-21.7-16.6-21.7h-92.6c-9.4 0-15 7-15 13.5 0 14.2 21.2 17.5 23.4 57.5v86.8c0 19-3.4 22.5-10.9 22.5-20 0-68.6-73.4-97.4-157.4-5.8-16.3-11.5-22.9-26.6-22.9H38.8c-16.8 0-20.2 7.9-20.2 16.7 0 15.6 20 93.1 93.1 195.5C160.4 378.1 229 416 291.4 416c37.5 0 42.1-8.4 42.1-22.9 0-66.8-3.4-73.1 15.4-73.1 8.7 0 23.7 4.4 58.7 38.1 40 40 46.6 57.9 69 57.9h58.9c16.8 0 25.3-8.4 20.4-25-11.2-34.9-86.9-106.7-90.3-111.5-8.7-11.2-6.2-16.2 0-26.2.1-.1 72-101.3 79.4-135.6z">
+                                    </path>
+                                </svg>
+                            </a>
+                        </li>
                     </ul>
                 </div>
+                <ul class="footer__list list-reset">
+                    <li class="footer__item footer__title">компания</li>
+                    <li class="footer__item"><a href="https://robinovsky.ru" class="footer__link">Другое</a></li>
+                    <li class="footer__item"><a href="https://www.instagram.com/hvatit.inc/" class="footer__link">Наш стиль</a></li>
+                    <li class="footer__item"><a href="privat.html" class="footer__link">Политика конфиденциальности</a></li>
+                </ul>
+                <ul class="footer__list list-reset">
+                    <li class="footer__item footer__title">приложения</li>
+                    <li class="footer__item"><a href="https://play.google.com/store/apps/details?id=robin.vitalij" class="footer__link">WOT Statistics</a></li>
+                    <li class="footer__item"><a href="https://play.google.com/store/apps/details?id=robin.vitalij.wot_console" class="footer__link">WoT Console Statistics</a></li>
+                    <li class="footer__item"><a href="https://play.google.com/store/apps/details?id=robin.vitalij.wows" class="footer__link">WoWS Assistant</a></li>
+                    <li class="footer__item"><a href="https://play.google.com/store/apps/details?id=robin.vitalij_wot_blitz" class="footer__link">WoT Blitz Statistics</a></li>
+                    <li class="footer__item"><a href="https://play.google.com/store/apps/details?id=robin.vitalij.warplanes.assistant" class="footer__link">WoWp Assistant</a></li>
+                    <li class="footer__item"><a href="https://play.google.com/store/apps/details?id=robin.vitalij.cs_1_6_commands" class="footer__link">CS:GO Command‪s‬</a></li>
+                    <li class="footer__item"><a href="https://play.google.com/store/apps/details?id=robin.vitalij.fortniteassitant" class="footer__link">Fort Assistant</a></li>
+                    <li class="footer__item"><a href="https://play.google.com/store/apps/details?id=robin.vitalij.cs_go_assistant" class="footer__link">CS:GO Assistant</a></li>
+                    <li class="footer__item"><a href="https://play.google.com/store/apps/details?id=robin.vitalij.dotaassistant" class="footer__link">Dota 2 Assistant</a></li>
+                    <li class="footer__item"><a href="https://play.google.com/store/apps/details?id=robin.vitalij.steamcharts" class="footer__link">Steam Charts</a></li>
+                </ul>
             </div>
         </div>
-    </div>
-    <a id="reviews"></a>
-    <div class="reviews">
-        <div class="container">
-            <h2>О команде</h2>
-            <p>Наша команда разработчиков бесстрашно идёт вперед.</p>
-            <p>Именно кто-то из них будет вести ваш проект и отвечать за него.
-            </p>
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="review">
-                        <img src="img/photo/uperfoto1.jpg" alt="фото красавца">
-                        <h3>Дмитрий Упировец</h3>
-                        <p>Председатель какойто херни.</p>
-                        <p>Несостоявшийся stand-up комик.</p>
-                        <p class="links">
-                            <a href="https://twitter.com/upermane" title="twitter" target="_blank">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="https://t.me/hvatit_admin" title="telegram" target="_blank">
-                                <i class="fab fa-telegram-plane"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="review">
-                        <img src="img/photo/robfoto.jpg" alt="фото другого красавца">
-                        <h3>Виталий Робиновский</h3>
-                        <p>Android developer</p>
-                        <p>Основатель проекта WoT Statistics</p>
-                        <p class="links">
-                            <a href="https://twitter.com/vitalijrobin" title="twitter" target="_blank">
-                                <i class="fab fa-twitter"></i>
-                            </a>
-                            <a href="mailto:v.robin.projects@gmail.com" title="Email v.robin.projects@gmail.com"
-                                target="_blank">
-                                <i class="fas fa-at"></i>
-                            </a>
-                            <a href="https://t.me/v_rabinovsky" title="telegram" target="_blank">
-                                <i class="fab fa-telegram-plane"></i>
-                            </a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <a id="betatest"></a>
-    <div class="betatest">
-        <div class="container">
-            <h2>Помогите сделать следующую версию приложения лучше</h2>
-            <p class="store">Участвуя в Программе бета-тестирования WOT Statistics,
-                вы сможете в числе первых оценить предварительные версии WOT Statistics,
-                а также попробовать в деле новые функции. Ваши отзывы позволят нам выявлять и устранять проблемы.
-                <br>
-                Чтобы принять участие в программе бета-тестирования нажмите на кнопку или отсканируйте приведённый ниже
-                QR-код.
-            </p>
-            <p class="buttons" title="Перейти в Google Play">
-                <a href="https://play.google.com/store/apps/details?id=robin.vitalij" target="_blank">Участвовать в
-                    тестировании</a>
-            </p>
-            <br>
-            <a href="https://play.google.com/store/apps/details?id=robin.vitalij" target="_blank">
-                <img src="http://qrcoder.ru/code/?https%3A%2F%2Fplay.google.com%2Fstore%2Fapps%2Fdetails%3Fid%3Drobin.vitalij&6&0"
-                    width="246" height="246" border="0" title="QR-cod">
-            </a>
-        </div>
-    </div>
-    <div class="blocks">
-        <div class="container">
-            <h2>Другие наши приложения</h2>
-            <div class="row justify-content-center">
-                <div class="col-md-3">
-                    <div class="appso">
-                        <img src="img/wows.png" alt="WoWS Statistics">
-                        <h3>WoWS Statistics</h3>
-                        <p>WoWS Statistics - это мобильное приложение для просмотра статистики игрока в World of
-                            Warships.
-                        </p>
-                        <a href="https://play.google.com/store/apps/details?id=robin.vitalij.wows"
-                            title="Перейти на страницу WoWS Statistics" target="_blank">
-                            <img src="img/market.png" alt="market play">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="appso">
-                        <img src="img/WoWp Assistants_icon.png" alt="WoWp Assistants">
-                        <h3>WoWp Assistants</h3>
-                        <p>WoWp Assistant - это мобильное приложение для просмотра статистики игрока в World of
-                            Warplanes.
-                        </p>
-                        <a href="https://play.google.com/store/apps/details?id=robin.vitalij.warplanes.assistant"
-                            title="Перейти на страницу WoWp Assistants" target="_blank">
-                            <img src="img/market.png" alt="market play">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="appso">
-                        <img src="img/WoT Console Statistics.png" alt="WoT Console Statistics">
-                        <h3>WoT Console Statistics</h3>
-                        <p>WoT Console Statistics - это приложение для просмотра статистики игрока в World of Tanks на
-                            конслолях.
-                        </p>
-                        <a href="https://play.google.com/store/apps/details?id=robin.vitalij.wot_console"
-                            title="Перейти на страницу WoT Console Statistics" target="_blank">
-                            <img src="img/market.png" alt="market play">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="appso">
-                        <img src="img/blitz.png" alt="WoT Blitz Statistics">
-                        <h3>WoT Blitz Statistics</h3>
-                        <p>WoT Blitz Statistics - это мобильное приложение для просмотра статистики игрока в World of
-                            Tanks Blitz.
-                        </p>
-                        <a href="https://play.google.com/store/apps/details?id=robin.vitalij_wot_blitz"
-                            title="Перейти на страницу WoT Blitz Statistics" target="_blank">
-                            <img src="img/market.png" alt="market Play">
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-md-3">
-                    <div class="appso_layer2">
-                        <h5>Количество установок:</h5>
-                        <h4>5 000+</h4>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="appso_layer2">
-                        <h5>Количество установок:</h5>
-                        <h4>100+</h4>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="appso_layer2">
-                        <h5>Количество установок:</h5>
-                        <h4>1 000+</h4>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="appso_layer2">
-                        <h5>Количество установок:</h5>
-                        <h4>10 000+</h4>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <a id="thank"></a>
-    <div class="thank">
-        <div class="container">
-            <h2>Благодарности</h2>
-            <p>текст какие они молодцы, а мы лентяи
-            </p>
-            <div class="people">
-                <div class="thanks">
-                    <img src="img/photo/Konstantin Linko.jpg" alt="">
-                    <h3>Konstantin Linko</h3>
-                    <p>Активный тестировщик.</p>
-                </div>
-                <div class="thanks">
-                    <img src="img/photo/masha1.jpg" alt="">
-                    <h3>Мария Станкевич</h3>
-                    <p>Перевод на немецкий.</p>
-                </div>
+        <p class="footer__copy">
+            &copy;2016-2021 by<a class="footer__text" href="https://twitter.com/upermane" target="_blank">@uper.</a>
+        </p>
+    </footer>
 
-                <div class="thanks">
-                    <img src="img/photo/Denis Baidak.jpg" alt="">
-                    <h3>Denis Baidak</h3>
-                    <p>Украл идею. В своё оправдание, он забил.
-                    </p>
-                </div>
-                <div class="thanks">
-                    <img src="img/photo/Hania Drozd.jpg" alt="">
-                    <h3>Hania Drozd</h3>
-                    <p>Перевод на польский.
-                    </p>
-                </div>
-
-                <div class="thanks">
-                    <img src="img/photo/masha2.jpg" alt="">
-                    <h3>Мария Самарец</h3>
-                    <p>Перевод на французский.
-                    </p>
-                </div>
-                <div class="thanks">
-                    <img src="img/photo/Степан Партыченко.jpg" alt="">
-                    <h3>Степан Партыченко</h3>
-                    <p>Активный тестировщик.
-                    </p>
-                </div>
-                <div class="thanks">
-                    <img src="img/photo/Hernan Rivero.jpg" alt="">
-                    <h3>Hernan Rivero</h3>
-                    <p>Перевод на испанский</p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2>robinlabs</h2>
-                    <h4>v.robin.projects@gmail.com</h4>
-                    <h4 class="soc-icon"><a href="https://vk.com/wg.statistics"><i class="fab fa-vk"></i></a> <a
-                            href="http://"><i class="fab fa-facebook-f"></i></a> <a
-                            href="mailto:v.robin.projects@gmail.com"><i class="fas fa-envelope"></i></a></h4>
-                </div>
-                <div class="col-md-4">
-                    <h2>Компания</h2>
-                    <h4><a href="https://robinovsky.ru" target="_blank">Другое</a></h4>
-                    <h4><a href="https://www.instagram.com/hvatit.inc/" target="_blank">Наш стиль</a></h4>
-                    <h4 id="footer"><a href="#reviews">О команде</a></h4>
-                    <h4><a href="privat.html">Политика конфиденциальности</a></h4>
-                </div>
-                <div class="col-md-4">
-                    <h2>приложения</h2>
-                    <h4><a href="https://play.google.com/store/apps/details?id=robin.vitalij"
-                            title="Перейти в Google Play">WOT Statistics</a></h4>
-                    <h4><a href="https://play.google.com/store/apps/details?id=robin.vitalij.wot_console"
-                            title="Перейти в Google Play">WoT Console Statistics</a></h4>
-                    <h4><a href="https://play.google.com/store/apps/details?id=robin.vitalij.wows"
-                            title="Перейти в Google Play">WoWS Statistics</a></h4>
-                    <h4><a href="https://play.google.com/store/apps/details?id=robin.vitalij_wot_blitz"
-                            title="Перейти в Google Play">WoT Blitz Statistics</a></h4>
-                    <h4><a href="https://play.google.com/store/apps/details?id=robin.vitalij.warplanes.assistant"
-                            title="Перейти в Google Play">WoWp Assistant</a></h4>
-                </div>
-            </div>
-        </div>
-    </div>
-
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/main.js"></script>
-
-
-
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#menu").on("click", "a", function (event) {
-                //отменяем стандартную обработку нажатия по ссылке
-                event.preventDefault();
-
-                //забираем идентификатор бока с атрибута href
-                var id = $(this).attr('href'),
-
-                    //узнаем высоту от начала страницы до блока на который ссылается якорь
-                    top = $(id).offset().top;
-
-                //анимируем переход на расстояние - top за 1500 мс
-                $('body,html').animate({ scrollTop: top }, 1500);
-            });
-        });
-    </script>
-    <script type="text/javascript">
-        $(document).ready(function () {
-            $("#footer").on("click", "a", function (event) {
-                //отменяем стандартную обработку нажатия по ссылке
-                event.preventDefault();
-
-                //забираем идентификатор бока с атрибута href
-                var id = $(this).attr('href'),
-
-                    //узнаем высоту от начала страницы до блока на который ссылается якорь
-                    top = $(id).offset().top;
-
-                //анимируем переход на расстояние - top за 1500 мс
-                $('body,html').animate({ scrollTop: top }, 1500);
-            });
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 2,
+            spaceBetween: 80,
+            autoplay: {
+                delay: 3500,
+                disableOnInteraction: false,
+            },
+            loop: true,
         });
     </script>
 </body>

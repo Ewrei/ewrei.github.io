@@ -1,489 +1,114 @@
-/*==========  Desktop First Method  ==========*/
+@media (max-width: 1024px) {
+    .banner {
+        padding: 80px 0;
+    }
+    .banner__text {
+        margin: 0 auto;
+    }
+    .apps {
+        padding: 50px 0 30px 0;
+    }
+}
 
-/* Large Devices, Wide Screens */
-
-@media only screen and (max-width: 1200px) {}
-
-/* Medium Devices, Desktops */
-
-@media only screen and (max-width: 992px) {
-    .navbar {
+@media (max-width: 698px) {
+    .header {
         position: relative;
     }
-    .navbar__list {
+    .herader__menu {
         display: none;
         position: absolute;
-        top: 84px;
+        top: 74px;
         left: 0;
         right: 0;
-        background: rgb(223, 239, 253);
+        background: #212123;
+        color: white;
         text-align: center;
         z-index: 1;
-    }
-    .navbar__item {
-        border-top: solid 1px rgb(118, 175, 224);
-        /* border-bottom: solid 1px rgb(118, 175, 224); */
     }
     .hamburger {
         display: block;
         padding: 5px;
         outline: transparent;
     }
-    .hamburger-box .hamburger-inner, .hamburger-box .hamburger-inner::after, .hamburger-box .hamburger-inner::before {
-        background-color: rgb(24, 64, 99);
+    .header__item {
+        border-top: solid 1px white;
+        padding: 10px;
     }
-    .navbar .buttons a {
-        font-size: 10px;
+    .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
+        background-color: #fff;
     }
-    .head_text {
-        padding: 0;
+    .hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner:after, .hamburger.is-active .hamburger-inner:before {
+        background-color: #fff;
     }
-    .header h1 {
-        font-size: 23px;
-    }
-    .apps {
-        padding: 10px 0;
-    }
-    .opesanee {
-        padding: 25px 25px 25px 50px;
-    }
-    .opesanee1 {
-        padding: 25px 50px 25px 0;
-    }
-    .opesanee2 {
-        padding: 25px 25px 25px 60px;
-    }
-    .block3 img {
-        width: 33%;
-    }
-    .application_advantage {
-        padding: 10px 0;
-    }
-    .application_advantage li {
-        padding: 0;
-        font-size: 16px;
-    }
-    .reviews {
-        padding: 10px 0;
-    }
-    .review {
-        padding: 10px 0px;
-    }
-    .review img {
-        width: 55%;
-        padding: 0px;
-    }
-    .betatest {
-        padding: 20px 0;
-    }
-    .betatest .store {
-        padding: 0 50px 25px 40px;
-    }
-    .blocks {
-        padding: 0;
-    }
-    .appso h3 {
-        margin: 0;
-    }
-    .appso img {
-        width: 65%;
-    }
-    .blocks p {
-        padding: 10px 0px;
-    }
-    .thank {
-        padding: 10px 0;
-    }
-    .thanks {
-        padding: 5px 0;
-    }
-    .thanks p {
+    .header__item a::after {
         display: none;
     }
-    .thanks img {
-        padding: 0;
+    .apps-card {
+        flex: 0 1 40%;
     }
-    .footer {
-        padding: 0;
-    }
-    .footer h4 {
-        padding-left: 50px;
-    }
-}
-
-/* Small Devices, Tablets */
-
-@media only screen and (max-width: 768px) {
-    /*Disable Animation on Mobile Devices*/
-    .animated {
-        /*CSS transitions*/
-        -o-transition-property: none !important;
-        -moz-transition-property: none !important;
-        -ms-transition-property: none !important;
-        -webkit-transition-property: none !important;
-        transition-property: none !important;
-        /*CSS transforms*/
-        -o-transform: none !important;
-        -moz-transform: none !important;
-        -ms-transform: none !important;
-        -webkit-transform: none !important;
-        transform: none !important;
-        /*CSS animations*/
-        -webkit-animation: none !important;
-        -moz-animation: none !important;
-        -o-animation: none !important;
-        -ms-animation: none !important;
-        animation: none !important;
-    }
-
-    .head_text {
-        padding: 0;
-    }
-    .header h1 {
-        font-size: 23px;
-    }
-    .apps {
-        padding: 10px 0;
-    }
-    .opesanee {
-        padding: 25px 25px 25px 50px;
-    }
-    .opesanee1 {
-        padding: 25px 50px 25px 0;
-    }
-    .opesanee2 {
-        padding: 25px 25px 25px 60px;
-    }
-    .block3 img {
-        width: 33%;
-    }
-    .appso_layer2 {
-        display: none;
-    }
-    .application_advantage {
-        padding: 10px 0;
-    }
-    .application_advantage li {
-        padding: 0;
-        font-size: 16px;
-    }
-    .reviews {
-        padding: 10px 0;
-    }
-    .review {
-        padding: 10px 0px;
-    }
-    .review img {
-        width: 55%;
-        padding: 0px;
-    }
-    .betatest {
-        padding: 20px 0;
-    }
-    .betatest .store {
-        padding: 0 50px 25px 40px;
-    }
-    .blocks {
-        padding: 0;
-    }
-    .appso h3 {
-        margin: 0;
-    }
-    .appso img {
-        width: 65%;
-    }
-    .blocks p {
-        padding: 10px 0px;
-    }
-    .people {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .thank {
-        padding: 10px 0;
-    }
-    .thanks {
-        padding: 5px 0;
-        width: 50%;
-    }
-    .thanks img {
-        padding: 0;
-    }
-    .thanks p {
-        display: none;
-    }
-    .footer {
-        padding: 0;
-    }
-    .footer h4 {
-        padding-left: 50px;
-    }
-}
-
-/* Extra Small Devices, Phones */
-
-@media only screen and (max-width: 480px) {
-    .navbar {
-        padding: 10px 0;
-    }
-    .navbar__list {
-        top: 64px;
-    }
-    .logo {
-        text-align: center;
-        /* padding-bottom: 20px; */
-    }
-    .header {
-        padding: 0;
-    }
-    .header h1 {
-        font-size: 20px;
-    }
-    .head_text {
-        padding: 0;
-    }
-    .apps {
-        padding: 10px 0;
-    }
-    .apps p {
-        padding-bottom: 10px;
-    }
-    .opesanee {
-        padding: 10px 25px 10px 20px;
-        text-align: right;
-        border-right: solid 4px rgb(86, 148, 202);
-    }
-    .opesanee2 {
-        padding: 10px 25px 10px 0;
-    }
-    .mockup {
-        text-align: center;
-        display: none;
-    }
-    .mockup1 {
-        text-align: center;
-        display: none;
-    }
-    .block2 img {
-        width: 60%;
-        border-right: none;
-    }
-    .opesanee1 {
-        padding: 10px 10px 10px 25px;
-        text-align: left;
-        border-left: solid 4px rgb(86, 148, 202);
-    }
-    .application_advantage {
-        padding: 10px 0;
-    }
-    .application_advantage li {
-        padding: 0;
-        font-size: 16px;
-    }
-    .review {
-        padding: 10px 0;
-    }
-    .reviews {
-        padding: 10px 0;
-    }
-    .review img {
-        width: 65%;
-        padding: 0px;
-    }
-    .betatest {
-        padding: 20px 0;
-    }
-    .betatest .store {
-        padding: 0 0 25px 0;
-    }
-    .betatest .buttons a {
-        font-size: 16px;
-    }
-    .betatest img {
-        display: none;
-    }
-    .store {
-        padding: 0 15px 25px 15px;
-    }
-    .blocks {
-        padding: 0;
-    }
-    .blocks h3 {
-        margin: 0;
-    }
-    .appso img {
-        width: 60%;
-    }
-    .appso a img {
-        padding-top: 0;
-    }
-    .appso_layer2 {
-        display: none;
-    }
-    .people {
-        display: flex;
+    .footer__wrapper {
         flex-direction: column;
     }
-    .thank {
-        padding: 20px 0;
+    .card {
+        flex-direction: column;
     }
-    .thanks img {
-        width: 75%;
-        padding: 5px;
+    .card__header {
+        flex: 0 1 100%;
+        position: initial;
     }
-    .thanks {
-        padding: 0px;
-        width: 60%;
-    }
-    .footer {
+    .card__body {
+        position: inherit;
         padding: 10px 0;
     }
-}
-
-/* Custom, iPhone Retina */
-
-@media only screen and (max-width: 320px) {
-    .navbar {
-        padding: 10px 0;
+    .card__name {
+        font-size: 16px;
     }
-    .logo {
-        text-align: center;
-        padding-bottom: 20px;
-    }
-    .menu .buttons {
-        display: none;
-    }
-    .buttons_menu a {
-        padding: 10px 8px;
+    .card__text {
         font-size: 14px;
     }
-    .header {
-        padding: 0;
-    }
-    .header h1 {
-        font-size: 20px;
-    }
-    .head_text {
-        padding: 0;
-    }
-    .apps {
-        padding: 10px 0;
-    }
-    .apps p {
-        padding-bottom: 10px;
-    }
-    .opesanee {
-        padding: 10px 25px 10px 20px;
-        text-align: right;
-        border-right: solid 4px rgb(86, 148, 202);
-    }
-    .opesanee2 {
-        padding: 10px 25px 10px 0;
-    }
-    .mockup {
-        text-align: center;
-        display: none;
-    }
-    .mockup1 {
-        text-align: center;
-        display: none;
-    }
-    .block2 img {
-        width: 60%;
-        border-right: none;
-    }
-    .appso_layer2 {
-        display: none;
-    }
-    .opesanee1 {
-        padding: 10px 10px 10px 25px;
-        text-align: left;
-        border-left: solid 4px rgb(86, 148, 202);
-    }
-    .application_advantage {
-        padding: 10px 0;
-    }
-    .application_advantage li {
-        padding: 0;
-        font-size: 16px;
-    }
-    .review {
-        padding: 10px 0;
-    }
-    .reviews {
-        padding: 10px 0;
-    }
-    .review img {
-        width: 65%;
-        padding: 0px;
-    }
-    .betatest {
-        padding: 20px 0;
-    }
-    .betatest .store {
-        padding: 0 0 25px 0;
-    }
-    .betatest .buttons a {
-        font-size: 16px;
-    }
-    .betatest img {
-        display: none;
-    }
-    .store {
-        padding: 0 15px 25px 15px;
-    }
-    .blocks {
-        padding: 0;
-    }
-    .blocks h3 {
-        margin: 0;
-    }
-    .appso img {
-        width: 60%;
-    }
-    .appso a img {
-        padding-top: 0;
-    }
-    .people {
-        display: flex;
-        flex-direction: column;
-    }
-    .thank {
-        padding: 20px 0;
-    }
-    .thanks img {
-        width: 75%;
-        padding: 5px;
-    }
-    .thanks {
-        padding: 0px;
-        width: 60%;
-    }
-    .footer {
-        padding: 10px 0;
-    }
 }
 
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-
-@media only screen and (min-width: 320px) {}
-
-/* Extra Small Devices, Phones */
-
-@media only screen and (min-width: 480px) {}
-
-/* Small Devices, Tablets */
-
-@media only screen and (min-width: 768px) {}
-
-/* Medium Devices, Desktops */
-
-@media only screen and (min-width: 992px) {}
-
-/* Large Devices, Wide Screens */
-
-@media only screen and (min-width: 1200px) {}
+@media (max-width: 535px) {
+    .title {
+        font-size: 24px;
+    }
+    .descr {
+        font-size: 18px;
+    }
+    .banner {
+        padding: 40px 0;
+    }
+    .banner__text {
+        padding: 20px;
+        font-size: 16px;
+    }
+    .apps-card {
+        flex: 0 1 100%;
+        margin: 10px;
+    }
+    .apps__img img {
+        max-width: 90%;
+    }
+    .about {
+        padding: 30px 0;
+    }
+    .about__wrapper {
+        flex-direction: column;
+    }
+    .about-card {
+        padding: 10px;
+    }
+    .community__descr {
+        max-width: 100%;
+    }
+    .community__link {
+        width: 50px;
+        height: 50px;
+    }
+    .thanks {
+        padding: 50px 0;
+    }
+    .thanks__descr {
+        margin-bottom: 10px;
+    }
+}

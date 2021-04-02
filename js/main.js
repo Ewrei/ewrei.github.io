@@ -1,4 +1,3 @@
-// Look for .hamburger
 var hamburger = document.querySelector(".hamburger");
 // On click
 hamburger.addEventListener("click", function() {
@@ -8,5 +7,5 @@ hamburger.addEventListener("click", function() {
 });
 
 $('.hamburger').on('click', function () {
-    $('.navbar__list').slideToggle();
+    $('.herader__menu').slideToggle();
   });
