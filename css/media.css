@@ -34,6 +34,9 @@
         border-top: solid 1px white;
         padding: 10px;
     }
+    .header__item:not(:last-child) {
+        padding-right: 0;
+    }
     .hamburger-inner, .hamburger-inner:after, .hamburger-inner:before {
         background-color: #fff;
     }
@@ -42,6 +45,11 @@
     }
     .header__item a::after {
         display: none;
+    }
+    .header__link {
+        margin: 8px;
+        padding: 16px;
+        display: inline-block;
     }
     .apps-card {
         flex: 0 1 40%;

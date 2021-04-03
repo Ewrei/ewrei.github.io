@@ -149,7 +149,7 @@ body {
     transition: box-shadow 0.3s ease-in-out;
 }
 .banner__text:hover {
-    box-shadow: 10px 10px 0px 0px rgb(0 0 0 / 60%);
+    box-shadow: 6px 6px 0px 0px rgb(0 0 0 / 45%);
 }
 
 .apps {
@@ -280,11 +280,11 @@ body {
 .about__list svg {
     width: 26px;
 }
-.about__list svg path {
-    fill: #2c2c2c;
+.about__link svg path {
+    fill: #616161;
     transition: fill 0.3s linear;
 }
-.about__list:hover svg path {
+.about__link:hover svg path {
     fill: black;
 }
 
@@ -301,13 +301,13 @@ body {
 
 .community__link {
     display: block;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     margin: 0 20px;
 }
 
 .community__link svg path {
-    fill: var(--accent-color);
+    fill: #727272;
     transition: fill 0.3s linear;
 }
 .community__link:hover svg path {
@@ -417,7 +417,7 @@ body {
 }
 
 .social-list svg path {
-    fill: #2c2c2c;
+    fill: #4e4e4e;
     transition: fill 0.3s linear;
 }
 .social__item:hover svg path {
