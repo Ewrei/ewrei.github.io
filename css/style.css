@@ -125,7 +125,7 @@ body {
 }
 
 .header__item:not(:last-child) {
-    padding-right: 20px;
+    padding-right: 34px;
 }
 
 .banner {
