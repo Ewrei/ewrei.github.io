@@ -428,6 +428,10 @@ body {
     line-height: 1.4;
 }
 
+.footer__link {
+    display: inline-block;
+}
+
 .footer__link::after {
     content: '';
     display: block;

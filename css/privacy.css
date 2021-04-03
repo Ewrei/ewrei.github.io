@@ -40,7 +40,15 @@
     transition: max-height 0.2s ease-out;
 }
 
- 
+.privacy__link {
+    display: inline-block;
+    color: gray;
+    transition: color 0.3s linear;
+}
+
+.privacy__link:hover {
+    color: black;
+}
 
 .privacy__link::after {
     content: '';
@@ -52,5 +60,5 @@
 }
 
 .privacy__link:hover::after {
-    width: 13%;
+    width: 100%;
 }
