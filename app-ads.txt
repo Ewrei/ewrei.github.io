@@ -44,3 +44,5 @@ xad.com,589,RESELLER,81cbf0a75a5e0e9a
 Inmobi.com,a5e661acdc384e91a79a58eb3418e99f,RESELLER,83e75a7ae333ca9d
 ##media.net##
 media.net, 8CUK63AWA, DIRECT
+##For test devices##
+google.com, pub-3940256099942544, DIRECT, f08c47fec0942fa0
