@@ -1,0 +1,133 @@
+.application {
+    padding: 120px 0;
+}
+.application__container{
+    max-width: 1240px;
+}
+.application__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.application__text {
+    max-width: 720px;
+    /* padding: 0 20px; */
+}
+
+.application__title {
+    justify-self: flex-start;
+    font-size: 64px;
+}
+
+.application__id {
+    margin: 0;
+    padding-bottom: 24px; 
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.application__descr {
+    margin: 0;
+    font-size: 24px;
+}
+
+.running-line {
+    border-top: 2px solid;
+    padding-top: 8px;
+}
+
+.running-line__text {
+    padding: 12px 0;
+    background-color: #D2F65A;
+    text-transform: uppercase;
+
+}
+
+.deletion-info {
+    padding: 64px 0;
+    background-color: rgb(9, 9, 9);
+    color: #fbfbfb;
+}
+
+.deletion-info__container {
+    max-width: 1240px;
+}
+.deletion-title {
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.deletion-subtitle {
+    text-align: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    margin: 0;
+    padding-bottom: 50px;
+}
+
+.data-list {
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+.instruction {
+    background-color: #D6D5D3;
+}
+
+.instruction__container{
+    max-width: 1240px;
+}
+
+.card__image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 72px 0;
+}
+
+.card-shot {
+    width: calc(33.33% - 72px);
+    margin-right: 72px;
+    margin-bottom: 72px;
+}
+
+.card-shot:nth-child(3n) {
+    margin-right: 0;
+}
+
+.card-shot img{
+    width: 100%;
+}
+
+
+@media (max-width: 1024px) {
+    .application__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+    .application__img {
+        padding-bottom: 20px;
+    }
+
+    .card__image-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-shot {
+        width: 80%;
+        margin-right: 0;
+    }
+
+    .deletion-title {
+        font-size: 24px;
+    }
+    .deletion-subtitle {
+        font-size: 24px;
+    }
+}
